@@ -1,11 +1,12 @@
-img{
-    background-color: aquamarine;
-    
-}
 
 *{
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+
+.intro{
+    padding-left: 40px;
+    font-weight: bold;
 }
 
 @keyframes colorChange{
@@ -21,6 +22,7 @@ body{
     animation-direction: alternate;
 
     margin: 0px;
+    
 }
 
 .images{
@@ -30,7 +32,8 @@ justify-content: space-around;
 }
 
 .images img{
-    border-radius: 20px;
+    border-radius: 30px;
+    background-color: aquamarine;
 }
 
 
@@ -42,6 +45,7 @@ justify-content: space-around;
 
 .fact1{
     animation-name: fact1;
+    text-shadow: 2px 2px 5px#f84b06;
 }
 
 .fact1{
@@ -58,6 +62,7 @@ justify-content: space-around;
 
 .fact2{
     animation-name: fact2;
+    text-shadow: 2px 2px 5px#f84b06;
 }
 
 .fact2{
@@ -74,6 +79,7 @@ justify-content: space-around;
 
 .fact3{
     animation-name: fact3;
+    text-shadow: 2px 2px 5px#f84b06;
 }
 
 .fact3{
@@ -89,6 +95,7 @@ justify-content: space-around;
 
 .fact4{
     animation-name: fact4;
+    text-shadow: 2px 2px 5px#f84b06;
 }
 
 .fact4{
@@ -104,6 +111,7 @@ justify-content: space-around;
 
 .fact5{
     animation-name: fact5;
+    text-shadow: 2px 2px 5px#f84b06;
 }
 
 .fact5{
@@ -119,6 +127,7 @@ justify-content: space-around;
 
 .fact6{
     animation-name: fact6;
+    text-shadow: 2px 2px 5px#f84b06;
 }
 
 .fact6{
@@ -140,4 +149,6 @@ a:visited{
     font-style: italic;
     font-family: cursive;
     margin-left: 50px;
-}
+} 
+
+
