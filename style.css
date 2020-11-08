@@ -27,7 +27,10 @@ body{
 display:flex;
 flex-wrap: wrap;
 justify-content: space-around;
+}
 
+.images img{
+    border-radius: 20px;
 }
 
 
@@ -125,134 +128,16 @@ justify-content: space-around;
     animation-timing-function:ease-in-out;
 }
 
-.img1{
-    border:3px solid black;
-}
-.img2{
-    border:3px solid black;
-}
-.img3{
-    border:3px solid black;
-}
-.img4{
-    border:3px solid black;
-}
-.img5{
-    border:3px solid black;
-}
-.img6{
-    border:3px solid black;
+ a:link{
+    color: #0000ff;
 }
 
-
-@keyframes img1A{
-    0%{transform: rotate(0deg)}
-    1%{transform: rotate(-10deg)}
-    20%{transform: rotate(10deg)}
-    40%{transform: rotate(-10deg)}
-    60%{transform: rotate(10deg)}
-    80%{transform: rotate(-10deg)}
-    99%{transform: rotate(10deg)}
-    100%{transform: rotate(0deg)}
-}
-.img1 :hover{
-    transform: scale(1.2);
-    animation-name:img1A;
-    animation-duration:10s;
-    animation-timing-function:ease-in-out;
-    animation-iteration-count:infinite  
+a:visited{
+    color:#000000;
 }
 
-
-@keyframes img2A{
-    0%{transform: rotate(0deg)}
-    1%{transform: rotate(-10deg)}
-    20%{transform: rotate(10deg)}
-    40%{transform: rotate(-10deg)}
-    60%{transform: rotate(10deg)}
-    80%{transform: rotate(-10deg)}
-    99%{transform: rotate(10deg)}
-    100%{transform: rotate(0deg)}
-}
-.img2 :hover{
-    transform: scale(1.2);
-    animation-name:img2A;
-    animation-duration:10s;
-    animation-timing-function:ease-in-out;
-    animation-iteration-count:infinite  
-}
-
-
-@keyframes img3A{
-    0%{transform: rotate(0deg)}
-    1%{transform: rotate(-10deg)}
-    20%{transform: rotate(10deg)}
-    40%{transform: rotate(-10deg)}
-    60%{transform: rotate(10deg)}
-    80%{transform: rotate(-10deg)}
-    99%{transform: rotate(10deg)}
-    100%{transform: rotate(0deg)}
-}
-.img3 :hover{
-    transform: scale(1.2);
-    animation-name:img3A;
-    animation-duration:10s;
-    animation-timing-function:ease-in-out;
-    animation-iteration-count:infinite  
-}
-
-
-@keyframes img4A{
-    0%{transform: rotate(0deg)}
-    1%{transform: rotate(-10deg)}
-    20%{transform: rotate(10deg)}
-    40%{transform: rotate(-10deg)}
-    60%{transform: rotate(10deg)}
-    80%{transform: rotate(-10deg)}
-    99%{transform: rotate(10deg)}
-    100%{transform: rotate(0deg)}
-}
-.img4 :hover{
-    transform: scale(1.2);
-    animation-name:img4A;
-    animation-duration:10s;
-    animation-timing-function:ease-in-out;
-    animation-iteration-count:infinite  
-}
-
-
-@keyframes img5A{
-    0%{transform: rotate(0deg)}
-    1%{transform: rotate(-10deg)}
-    20%{transform: rotate(10deg)}
-    40%{transform: rotate(-10deg)}
-    60%{transform: rotate(10deg)}
-    80%{transform: rotate(-10deg)}
-    99%{transform: rotate(10deg)}
-    100%{transform: rotate(0deg)}
-}
-.img5 :hover{
-    transform: scale(1.2);
-    animation-name:img5A;
-    animation-duration:10s;
-    animation-timing-function:ease-in-out;
-    animation-iteration-count:infinite   
-}
-
-@keyframes img6A{
-    0%{transform: rotate(0deg)}
-    1%{transform: rotate(-10deg)}
-    20%{transform: rotate(10deg)}
-    40%{transform: rotate(-10deg)}
-    60%{transform: rotate(10deg)}
-    80%{transform: rotate(-10deg)}
-    99%{transform: rotate(10deg)}
-    100%{transform: rotate(0deg)}
-}
-.img6 :hover{
-    transform: scale(1.2);
-    animation-name:img6A;
-    animation-duration:10s;
-    animation-timing-function:ease-in-out;
-    animation-iteration-count:infinite   
+.more{
+    font-style: italic;
+    font-family: cursive;
+    margin-left: 50px;
 }
